@@ -21,7 +21,7 @@ const App = () => {
         Authorization: `Bearer ${import.meta.env.VITE_OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
-        model: 'text-davinci-003',
+        model: 'gpt-4.1-nano-2025-04-14',
         prompt:
           'Extract keywords from this text. Make the first letter of every word uppercase and separate with commas:\n\n' +
           text +
